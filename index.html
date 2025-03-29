@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХК Спецтехноткань - Производство технических тканей</title>
+    <link rel="icon" href="img/logo.svg" type="image/png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Логотип ХК Спецтехноткань" class="logo-img">
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-contacts">
+                <a href="tel:+74959904781" class="phone">
+                    <i class="fas fa-phone-alt"></i> +7 (495) 990-47-81
+                </a>
+                <a href="#callback-modal" class="btn btn-outline callback-btn">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Производство технических тканей для промышленности</h1>
+                <p class="subtitle">Стеклоткани, кремнеземные, фильтровальные и авиационные ткани оптом по России</p>
+                
+                <div class="hero-advantages">
+                    <div class="advantage-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>15+ лет на рынке</span>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Прямые поставки от производителя</span>
+                    </div>
+                    <div class="advantage-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>100% соответствие ГОСТ и ТУ</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="catalog.html" class="btn btn-primary">Каталог продукции</a>
+                    <a href="#contacts" class="btn btn-outline">Получить консультацию</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="img/titleimg.jpg" alt="Промышленные материалы" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Наша продукция</h2>
+            <p class="section-subtitle">Технические ткани для различных отраслей промышленности</p>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/images.jpg" alt="Стеклоткани" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Стеклоткани конструкционные</h3>
+                        <ul class="product-specs">
+                            <li>Т-10, Т-11, Т-13, Т-23</li>
+                            <li>Различная плотность и толщина</li>
+                            <li>Для промышленного применения</li>
+                        </ul>
+                        <a href="catalog.html" class="btn btn-primary btn-small">Подробнее</a>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/krem.jpg" alt="Кремнеземные ткани" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Кремнеземные ткани</h3>
+                        <ul class="product-specs">
+                            <li>КТ-11, КТ-Э, КС-11</li>
+                            <li>Термостойкие материалы</li>
+                            <li>Для высокотемпературной изоляции</li>
+                        </ul>
+                        <a href="catalog.html" class="btn btn-primary btn-small">Подробнее</a>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./img/filter.jpg" alt="Фильтровальные ткани" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Фильтровальные ткани</h3>
+                        <ul class="product-specs">
+                            <li>ТСФ, ССФ серии</li>
+                            <li>Для газоочистки и фильтрации</li>
+                            <li>Различные классы фильтрации</li>
+                        </ul>
+                        <a href="catalog.html" class="btn btn-primary btn-small">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">О компании</h2>
+                <p class="highlight-text">ООО "ХК Спецтехноткань" - производитель и поставщик технических материалов для промышленности с 2008 года</p>
+                
+                <p>Мы специализируемся на комплексных поставках специализированных материалов для различных отраслей промышленности.</p>
+                
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3>Собственное производство</h3>
+                        <p>Современные мощности для выпуска технических тканей</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <h3>Складская программа</h3>
+                        <p>Большинство позиций всегда в наличии</p>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Сертифицированная продукция</h3>
+                        <p>100% соответствие ГОСТ и ТУ</p>
+                    </div>
+                </div>
+                
+                <a href="about.html" class="btn btn-primary">Подробнее о компании</a>
+            </div>
+            
+            <div class="about-image">
+                <img src="img/imgabout.jpeg" alt="Наше производство" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="advantages-section">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Прямые поставки</h3>
+                    <p>Работаем без посредников, предлагаем официальные материалы от производителя</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Опыт работы</h3>
+                    <p>Успешный многолетний опыт комплексных поставок для крупнейших предприятий России</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Наличие на складе</h3>
+                    <p>Большинство позиций в наличии с возможностью быстрой отгрузки</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Гибкие условия</h3>
+                    <p>Предлагаем удобные формы расчета для наших клиентов</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Организуем оперативную доставку по России и СНГ надежными ТК</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3>Гарантия качества</h3>
+                    <p>Все материалы сопровождаются подтверждающими документами качества</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts-section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contacts-container">
+                <div class="contacts-info">
+                    <div class="contact-block">
+                        <h3>Для заказов и консультаций:</h3>
+                        <p><i class="fas fa-phone-alt"></i> +7 (495) 990-47-81</p>
+                        <p><i class="fas fa-envelope"></i> 1zakaztkani@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Режим работы:</h3>
+                        <p><i class="fas fa-clock"></i> Пн-Пт: 9:00-18:00</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Адрес:</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Россия, Московская область</p>
+                    </div>
+                </div>
+                
+                <div class="contacts-form">
+                    <h3>Оставьте заявку</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Сообщение"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="https://via.placeholder.com/180x60?text=ХК+Спецтехноткань" alt="Логотип ХК Спецтехноткань" class="footer-logo">
+                    <p>Производство и поставка технических тканей с 2008 года</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Продукция</h3>
+                    <ul class="footer-menu">
+                        <li><a href="catalog.html">Стеклоткани</a></li>
+                        <li><a href="catalog.html">Кремнеземные ткани</a></li>
+                        <li><a href="catalog.html">Фильтровальные ткани</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Компания</h3>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="about.html">Производство</a></li>
+                        <li><a href="about.html">Сертификаты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <ul class="footer-menu">
+                        <li><i class="fas fa-phone-alt"></i> +7 (495) 990-47-81</li>
+                        <li><i class="fas fa-envelope"></i> 1zakaztkani@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Московская обл.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2023 ООО "ХК Спецтехноткань". Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="callback-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Заказать звонок</h3>
+            <form id="callbackForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Перезвоните мне</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

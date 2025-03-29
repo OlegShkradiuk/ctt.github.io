@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продукции | ХК Спецтехноткань</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Логотип ХК Спецтехноткань" class="logo-img">
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-contacts">
+                <a href="tel:+74959904781" class="phone">
+                    <i class="fas fa-phone-alt"></i> +7 (495) 990-47-81
+                </a>
+                <a href="#callback-modal" class="btn btn-outline callback-btn">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Каталог продукции</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Каталог</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="products-section">
+        <div class="container">
+            <div class="catalog-container">
+                <aside class="catalog-sidebar">
+                    <h3>Категории</h3>
+                    <ul class="category-list">
+                        <li><a href="#" class="active">Стеклоткани</a></li>
+                        <li><a href="#">Кремнеземные ткани</a></li>
+                        <li><a href="#">Фильтровальные ткани</a></li>
+                        <li><a href="#">Авиационные ткани</a></li>
+                        <li><a href="#">Термостойкие материалы</a></li>
+                    </ul>
+                    
+                    <h3>Фильтры</h3>
+                    <div class="filter-group">
+                        <h4>Стандарт</h4>
+                        <label><input type="checkbox" checked> ГОСТ</label>
+                        <label><input type="checkbox" checked> ТУ</label>
+                        <label><input type="checkbox" checked> ISO</label>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Плотность</h4>
+                        <label><input type="checkbox" checked> До 200 г/м²</label>
+                        <label><input type="checkbox" checked> 200-500 г/м²</label>
+                        <label><input type="checkbox" checked> От 500 г/м²</label>
+                    </div>
+                </aside>
+                
+                <div class="catalog-content">
+                    <div class="products-grid">
+                        <!-- Product 1 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/contactimg/t10.png" alt="Стеклоткань Т-10" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <h3>Стеклоткань Т-10</h3>
+                                <ul class="product-specs">
+                                    <li>Плотность: 100±5 г/м²</li>
+                                    <li>Толщина: 0.10±0.01 мм</li>
+                                    <li>Разрывная нагрузка: не менее 900 Н</li>
+                                </ul>
+                                <div class="product-footer">
+                                    <span class="price">от 250 ₽/м²</span>
+                                    <a href="#" class="btn btn-primary btn-small">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 2 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/contactimg/t11.jpg" alt="Стеклоткань Т-11" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <h3>Стеклоткань Т-11</h3>
+                                <ul class="product-specs">
+                                    <li>Плотность: 105±5 г/м²</li>
+                                    <li>Толщина: 0.11±0.01 мм</li>
+                                    <li>Разрывная нагрузка: не менее 1000 Н</li>
+                                </ul>
+                                <div class="product-footer">
+                                    <span class="price">от 280 ₽/м²</span>
+                                    <a href="#" class="btn btn-primary btn-small">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 3 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/contactimg/KT11.jpg" alt="Кремнеземная ткань КТ-11" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <h3>Кремнеземная ткань КТ-11</h3>
+                                <ul class="product-specs">
+                                    <li>Плотность: 500±20 г/м²</li>
+                                    <li>Толщина: 0.8±0.1 мм</li>
+                                    <li>Термостойкость: до +1100°C</li>
+                                </ul>
+                                <div class="product-footer">
+                                    <span class="price">от 1500 ₽/м²</span>
+                                    <a href="#" class="btn btn-primary btn-small">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product 4 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/contactimg/tsf.jpg" alt="Фильтровальная ткань ТСФ" loading="lazy">
+                            </div>
+                            <div class="product-info">
+                                <h3>Фильтровальная ткань ТСФ</h3>
+                                <ul class="product-specs">
+                                    <li>Плотность: 350±15 г/м²</li>
+                                    <li>Толщина: 0.45±0.05 мм</li>
+                                    <li>Класс фильтрации: F7</li>
+                                </ul>
+                                <div class="product-footer">
+                                    <span class="price">от 800 ₽/м²</span>
+                                    <a href="#" class="btn btn-primary btn-small">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="https://via.placeholder.com/180x60?text=ХК+Спецтехноткань" alt="Логотип ХК Спецтехноткань" class="footer-logo">
+                    <p>Производство и поставка технических тканей с 2008 года</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Продукция</h3>
+                    <ul class="footer-menu">
+                        <li><a href="catalog.html">Стеклоткани</a></li>
+                        <li><a href="catalog.html">Кремнеземные ткани</a></li>
+                        <li><a href="catalog.html">Фильтровальные ткани</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Компания</h3>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="about.html">Производство</a></li>
+                        <li><a href="about.html">Сертификаты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <ul class="footer-menu">
+                        <li><i class="fas fa-phone-alt"></i> +7 (495) 990-47-81</li>
+                        <li><i class="fas fa-envelope"></i> 1zakaztkani@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Московская обл.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2023 ООО "ХК Спецтехноткань". Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="callback-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Заказать звонок</h3>
+            <form id="callbackForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Перезвоните мне</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

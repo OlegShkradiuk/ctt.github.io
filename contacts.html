@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | ХК Спецтехноткань</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="Логотип ХК Спецтехноткань" class="logo-img">
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-contacts">
+                <a href="tel:+74959904781" class="phone">
+                    <i class="fas fa-phone-alt"></i> +7 (495) 990-47-81
+                </a>
+                <a href="#callback-modal" class="btn btn-outline callback-btn">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Контакты</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Контакты</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts-section">
+        <div class="container">
+            <div class="contacts-container">
+                <div class="contacts-info">
+                    <h2 class="section-title">Контактная информация</h2>
+                    
+                    <div class="contact-block">
+                        <h3>Реквизиты компании</h3>
+                        <p><strong>ООО "ХК Спецтехноткань"</strong></p>
+                        <p>ИНН 1234567890 / ОГРН 1234567890123</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Адрес производства</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Московская область, г. Электросталь, ул. Заводская, 15</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Телефоны</h3>
+                        <p><i class="fas fa-phone-alt"></i> +7 (495) 990-47-81 (многоканальный)</p>
+                        <p><i class="fas fa-phone-alt"></i> +7 (925) 123-45-67 (отдел продаж)</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Электронная почта</h3>
+                        <p><i class="fas fa-envelope"></i> info@spec-tkani.ru</p>
+                        <p><i class="fas fa-envelope"></i> sales@spec-tkani.ru</p>
+                    </div>
+                    
+                    <div class="contact-block">
+                        <h3>Режим работы</h3>
+                        <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 18:00</p>
+                        <p>Отгрузка товаров до 17:00</p>
+                    </div>
+                </div>
+                
+                <div class="contacts-form">
+                    <h2 class="section-title">Форма обратной связи</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваш вопрос"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="https://via.placeholder.com/180x60?text=ХК+Спецтехноткань" alt="Логотип ХК Спецтехноткань" class="footer-logo">
+                    <p>Производство и поставка технических тканей с 2008 года</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Продукция</h3>
+                    <ul class="footer-menu">
+                        <li><a href="catalog.html">Стеклоткани</a></li>
+                        <li><a href="catalog.html">Кремнеземные ткани</a></li>
+                        <li><a href="catalog.html">Фильтровальные ткани</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Компания</h3>
+                    <ul class="footer-menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="about.html">Производство</a></li>
+                        <li><a href="about.html">Сертификаты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <ul class="footer-menu">
+                        <li><i class="fas fa-phone-alt"></i> +7 (495) 990-47-81</li>
+                        <li><i class="fas fa-envelope"></i> 1zakaztkani@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Московская обл.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2023 ООО "ХК Спецтехноткань". Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="callback-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Заказать звонок</h3>
+            <form id="callbackForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Телефон" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Перезвоните мне</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
